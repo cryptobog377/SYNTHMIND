@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SYNTHMIND – Create With Intelligence</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      background: #ffffff;
+      color: #000;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #111;
+      letter-spacing: -0.5px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #444;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #000;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 160px 20px 120px;
+    }
+
+    .soon {
+      font-size: 0.9rem;
+      color: #777;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 3.2rem;
+      font-weight: 700;
+      color: #000;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      color: #555;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+      margin-bottom: 60px;
+    }
+
+    .btn-primary {
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      padding: 14px 36px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: not-allowed;
+      opacity: 0.5;
+      transition: 0.3s;
+    }
+
+    .contract-section {
+      text-align: center;
+      padding: 120px 20px;
+      background: linear-gradient(135deg, #f0f0f0, #fafafa);
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.05);
+    }
+
+    .contract-box {
+      display: inline-block;
+      padding: 25px 40px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      border: 1px solid #ddd;
+      min-width: 300px;
+    }
+
+    .contract-box h3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    .placeholder {
+      font-size: 1.1rem;
+      color: #888;
+      font-family: monospace;
+      background: #f5f5f5;
+      border-radius: 8px;
+      padding: 10px 20px;
+      display: inline-block;
+    }
+
+    .x-community a {
+      text-decoration: none;
+      background: #000;
+      color: #fff;
+      padding: 12px 32px;
+      border-radius: 25px;
+      font-weight: 500;
+      transition: 0.3s;
+      display: inline-block;
+      margin-top: 30px;
+    }
+
+    .x-community a:hover {
+      background: #222;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      padding: 100px 60px;
+    }
+
+    .section img {
+      max-width: 450px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+
+    .text-block {
+      max-width: 480px;
+    }
+
+    .text-block h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .text-block p {
+      color: #444;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SYNTHMIND</h1>
+    <nav>
+      <a href="#tools">Tools</a>
+      <a href="#about">About</a>
+      <a href="#contract">Contract</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="soon">SOON</div>
+    <h2>Create With Intelligence</h2>
+    <p>Minimal, powerful, and intuitive – SYNTHMIND empowers creators to craft with AI precision and beauty, designed in the spirit of simplicity.</p>
+    <button class="btn-primary">Join the Studio</button>
+  </section>
+
+  <section id="contract" class="contract-section">
+    <div class="contract-box">
+      <h3>Contract Address</h3>
+      <div class="placeholder">[ INSERT CONTRACT HERE ]</div>
+    </div>
+    <div class="x-community">
+      <a href="https://x.com" target="_blank">X Community</a>
+    </div>
+  </section>
+
+  <section id="tools" class="section">
+    <img src="https://i.pinimg.com/736x/af/a2/3a/afa23a3b0a812a0001009c71d7be689d.jpg" alt="AI Creative Tools Visualization">
+    <div class="text-block">
+      <h3>Intelligent Creation</h3>
+      <p>From visual composition to audio generation, SYNTHMIND provides seamless AI-powered tools that adapt to your creative flow.</p>
+    </div>
+  </section>
+
+  <section id="about" class="section" style="background:#f9f9f9;">
+    <div class="text-block">
+      <h3>Precision in Every Detail</h3>
+      <p>Engineered for creators who demand harmony between technology and design. Each tool integrates effortlessly, ensuring your workflow feels natural and refined.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=900&q=80" alt="Studio Workspace">
+  </section>
+
+  <footer>
+    © 2025 SYNTHMIND – AI Art Studio. All rights reserved.
+  </footer>
+</body>
+</html>
